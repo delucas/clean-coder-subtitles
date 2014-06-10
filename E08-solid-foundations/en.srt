@@ -253,7 +253,7 @@ and it will measure the speed of that light at
 56
 00:05:50,013 --> 00:05:58,711
 Now get onto some railroad tracks, stand in front of a train
-as it's barreling down at you at 100 meters per second
+as it's barreling down at you at 100 meters per second.
 
 57
 00:05:58,811 --> 00:06:04,392
@@ -286,7 +286,7 @@ do it in a car, you can do it in a jet plain or a rocket ship.
 63
 00:06:46,019 --> 00:06:51,650
 You can use the Earth whipping around the Sun or
-the Sun plowing to the galaxy: it doesn't matter:
+the Sun plowing to the galaxy. It doesn't matter:
 
 64
 00:06:51,750 --> 00:06:57,382
@@ -338,7 +338,7 @@ the rate of once per nanosecond.
 
 74
 00:08:06,258 --> 00:08:09,727
-Imagine that both you and I have such a clock
+Imagine that both you and I have such a clock.
 
 75
 00:08:09,827 --> 00:08:16,313
@@ -960,7 +960,7 @@ Rigidity
 
 210
 00:20:36,065 --> 00:20:40,983
-Rigidity is the tendency of a system to be hard to change
+Rigidity is the tendency of a system to be hard to change.
 
 211
 00:20:41,612 --> 00:20:45,044
@@ -1177,7 +1177,7 @@ in the modules of the system,
 257
 00:25:21,331 --> 00:25:31,183
 For example let's say that I've got a login module that used
-a particular database schema and a particular UI scheme
+a particular database schema and a particular UI scheme.
 
 258
 00:25:31,283 --> 00:25:36,101
@@ -1416,7 +1416,7 @@ a conference room and then he says...
 308
 00:30:47,038 --> 00:30:52,234
 So I called you in here because
-I've got a new project for you
+I've got a new project for you.
 
 309
 00:30:52,334 --> 00:30:53,334
@@ -1620,7 +1620,7 @@ How long do you think it's gonna take you to do?
 
 353
 00:34:31,966 --> 00:34:36,027
-Hmmm... this sounds like a boolean and an if statement.
+[Hmmm... this sounds like a boolean and an if statement.]
 
 354
 00:34:36,127 --> 00:34:37,245
@@ -1729,8 +1729,8 @@ Sometimes, we'd like to write to the paper tape punch.
 
 378
 00:36:16,597 --> 00:36:21,829
-(Mmm... I've got a design pattern for this now,
-I know how to solve it.)
+[Mmm... I've got a design pattern for this now,
+I know how to solve it.]
 
 379
 00:36:21,929 --> 00:36:23,318
@@ -1769,7 +1769,7 @@ This code is rotting.
 387
 00:36:58,307 --> 00:37:02,518
 It's pretty clear that your boss is keep coming back
-to you with more and more changes
+to you with more and more changes.
 
 388
 00:37:02,618 --> 00:37:08,553
@@ -1939,7 +1939,7 @@ What is it that fills the gap between those two?
 425
 00:40:11,124 --> 00:40:18,275
 It turns out that getchar and putchar are part of the
-unix abstraction known as "file".
+Unix abstraction known as "File".
 
 426
 00:40:18,375 --> 00:40:27,076
@@ -1957,7 +1957,7 @@ and paper tape punch implement those five functions.
 
 429
 00:40:41,233 --> 00:40:44,522
-so when you redirect standard input and standard output
+So when you redirect standard input and standard output
 
 430
 00:40:44,622 --> 00:40:50,322
@@ -2164,7 +2164,7 @@ Is o.f(x) really so different from f(o, x) ?
 
 474
 00:44:23,977 --> 00:44:26,947
-Any python programmer can tell you it's not.
+Any Python programmer can tell you it's not.
 
 475
 00:44:28,256 --> 00:44:33,643
@@ -2487,19 +2487,19 @@ like continuous integration,
 
 541
 00:50:58,397 --> 00:51:02,114
-and remember that advanced test driven
-development session I've promised to you.
+and remember that advanced Test-Driven
+Development session I've promised to you.
 
 542
 00:51:02,216 --> 00:51:06,272
 You're not gonna want to miss the next
-exciting Episode of Clean Code
+exciting Episode of Clean Code,
 
 543
 00:51:06,372 --> 00:51:10,706
-Episode 9: The Single Responsibility Principle
+Episode 9: The Single Responsibility Principle.
 
 544
-00:51:21,380 --> 00:51:28,400
+00:51:10,806 --> 00:51:28,400
 Subtitles by Lucas Videla - @luke_ar
 
