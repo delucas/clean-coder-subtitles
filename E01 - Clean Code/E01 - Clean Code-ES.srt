@@ -1,0 +1,1145 @@
+1
+00:00:03,683 --> 00:00:05,989
+Hola soy tio bob
+
+2
+00:00:05,915 --> 00:00:08,150
+y esto es ... Código limpio
+
+3
+00:00:45,650 --> 00:00:47,800
+Es hora de la lección de astronomía.
+
+4
+00:00:49,723 --> 00:00:53,127
+Sigamos la historia estándar:
+
+5
+00:00:53,148 --> 00:00:55,830
+empezamos aquí en Ursa Maior,
+
+6
+00:00:56,080 --> 00:01:03,576
+dibuja un arco y para en Arcturus y acelera a la estrella Espiga
+
+7
+00:01:03,865 --> 00:01:10,472
+Saltamos seis grados al oeste
+
+8
+00:01:10,722 --> 00:01:14,536
+El M104, el Sombrero Galaxy.
+
+9
+00:01:14,786 --> 00:01:20,155
+Está muy cerca, solo 28 millones de años luz.
+
+10
+00:01:20,205 --> 00:01:27,378
+Esto significa que en una noche muy oscura probablemente puedas verlo a simple vista.
+
+11
+00:01:27,469 --> 00:01:31,613
+Con binoculares seguramente verás un lugar en el cielo
+
+12
+00:01:31,863 --> 00:01:35,584
+y con un buen telescopio ... Bueno, mira eso,
+
+13
+00:01:35,571 --> 00:01:42,307
+es una galaxia gloriosa en forma de anillo y mira esta bombilla incandescente
+
+14
+00:01:42,557 --> 00:01:48,898
+y ver pasar el prominente y brillante camino de tierra. ¡Qué vista!
+
+15
+00:01:49,148 --> 00:01:55,705
+Esta chispa en el medio es algo muy especial y muy siniestro.
+
+16
+00:01:55,955 --> 00:01:59,836
+Solo conocemos unos pocos así. Es un agujero negro
+
+17
+00:02:00,086 --> 00:02:04,784
+y tiene una masa mil millones de veces mayor que nuestro sol
+
+18
+00:02:05,034 --> 00:02:12,841
+y está activo, el hecho de que podamos verlo significa
+que está tragando gas brillante y polvo.
+
+19
+00:02:13,091 --> 00:02:17,438
+Su gravedad puede incluso estar aplastando y tragándose estrellas enteras.
+
+20
+00:02:18,739 --> 00:02:25,542
+Ahora, veamos con infrarrojos, esta es la vista
+desde el telescopio espacial Spitzer.
+
+21
+00:02:26,630 --> 00:02:31,753
+El material brillante está caliente, emite radiación infrarroja,
+
+22
+00:02:32,003 --> 00:02:38,742
+El camino de polvo parece un anillo y este anillo tiene 30,000 años luz de diámetro.
+
+23
+00:02:38,992 --> 00:02:43,688
+Puedes ver que el agujero negro central también
+emite mucha radiación infrarroja,
+
+24
+00:02:43,938 --> 00:02:47,322
+pero mira el área en el medio, ¡está vacía!
+
+25
+00:02:47,372 --> 00:02:49,459
+¿Cómo puedes estar tan vacío?
+
+26
+00:02:49,709 --> 00:02:55,262
+Cuando combinamos las dos imágenes, lo que obtenemos parece
+una explosión en una película de ciencia ficción,
+
+27
+00:02:55,512 --> 00:02:57,759
+como si un planeta estuviera explotando.
+
+28
+00:02:58,009 --> 00:03:01,730
+¿Qué es lo que empujó todo este material fuera de la región central?
+
+29
+00:03:01,980 --> 00:03:03,285
+¿Por qué está tan vacío?
+
+30
+00:03:03,425 --> 00:03:12,168
+¿El agujero negro explotó en un quásar hace mil
+millones de años, sacando todo del ring?
+
+31
+00:03:12,418 --> 00:03:15,767
+Qué vista, ¿no?
+
+32
+00:03:23,939 --> 00:03:27,841
+Código limpio: ¿Importa?
+
+33
+00:03:29,312 --> 00:03:32,067
+"Patrones de implementación"
+
+34
+00:03:32,067 --> 00:03:37,628
+Es un libro escrito por Kent Beck. Gran libro si quieres
+saber más sobre buenos hábitos de programación.
+
+35
+00:03:37,878 --> 00:03:42,818
+Pero en este libro, Kent dice que se basa en una premisa débil.
+
+36
+00:03:42,868 --> 00:03:45,674
+Que un código bien hecho importa.
+
+37
+00:03:45,924 --> 00:03:48,902
+¿Frágil ?, no lo creo.
+
+38
+00:03:49,413 --> 00:03:52,222
+Déjame contarte una historia sobre ...
+
+39
+00:03:52,472 --> 00:03:55,972
+La compañía que fue asesinada por el código.
+
+40
+00:03:56,611 --> 00:04:00,163
+Hace mucho tiempo, en una compañía lejana
+
+41
+00:04:00,413 --> 00:04:03,402
+Usé un depurador que funcionaba con C
+
+42
+00:04:03,652 --> 00:04:07,129
+Fue hecho por una compañía llamada Sword Inc.
+
+43
+00:04:07,379 --> 00:04:11,495
+Él era poderoso y nos ahorró mucho tiempo y esfuerzo.
+
+44
+00:04:11,806 --> 00:04:17,043
+Pero estábamos en 1990 y a punto de cambiar de C
+
+45
+00:04:17,293 --> 00:04:19,482
+para C ++.
+
+46
+00:04:19,732 --> 00:04:25,613
+Sword juró que pronto tendría una versión de depurador C ++,
+
+47
+00:04:25,863 --> 00:04:28,770
+Pero el tiempo ha pasado
+
+48
+00:04:28,820 --> 00:04:34,740
+6 meses después, enviaron una versión del depurador que tardó 45 minutos en cargarse
+
+49
+00:04:34,990 --> 00:04:36,340
+y luego se estrelló.
+
+50
+00:04:37,778 --> 00:04:40,200
+Los devolvemos con una severa advertencia.
+
+51
+00:04:40,350 --> 00:04:44,955
+Prometieron que pronto tendrían una versión nueva y mejor.
+
+52
+00:04:45,205 --> 00:04:48,415
+Estábamos escépticos, pero esperamos.
+
+53
+00:04:48,665 --> 00:04:51,978
+6 meses después, enviaron una nueva versión y ...
+
+54
+00:04:52,228 --> 00:04:57,238
+¿Qué piensa usted? tardó 45 minutos en cargarse y luego se estrelló.
+
+55
+00:04:58,792 --> 00:05:01,900
+Después de eso, dejamos de contar con ellos.
+
+56
+00:05:01,950 --> 00:05:05,179
+Desde nuestro punto de vista, ese producto estaba muerto.
+
+57
+00:05:06,015 --> 00:05:12,629
+No fue una sorpresa para ninguno de nosotros cuando,
+6 meses después, Sword se declaró en quiebra.
+
+58
+00:05:16,322 --> 00:05:22,130
+Una década después, conocí a alguien que
+había trabajado en Sword en esos días.
+
+59
+00:05:22,380 --> 00:05:24,104
+y me contó la historia.
+
+60
+00:05:24,354 --> 00:05:27,144
+dijo ...
+
+61
+00:05:27,480 --> 00:05:30,652
+Lanzamos el depurador C en el mercado a toda prisa.
+
+62
+00:05:30,702 --> 00:05:33,158
+Hicimos un gran desastre en el código.
+
+63
+00:05:33,408 --> 00:05:41,611
+Entonces, cuando tratamos de hacerlo funcionar con C
+++, bueno, era imposible trabajar con este desastre
+
+64
+00:05:42,262 --> 00:05:47,765
+Entonces ... el código limpio ciertamente les importaba.
+
+65
+00:05:48,015 --> 00:05:53,314
+Al final, fue el mal código el que mató a esta compañía.
+
+66
+00:05:54,333 --> 00:06:00,745
+¿Pero qué salió mal? ¿Qué estaba mal con todo el código desordenado que los mató?
+
+67
+00:06:08,999 --> 00:06:12,133
+¿Has trabajado en un proyecto desde el principio?
+
+68
+00:06:12,383 --> 00:06:14,280
+¿Recuerdas lo productivo que eras?
+
+69
+00:06:14,530 --> 00:06:19,785
+Relámpagos de tus dedos después de cada nueva característica realizada.
+
+70
+00:06:20,035 --> 00:06:27,355
+Eras rápido, los usuarios pedían algo nuevo y
+podías crearlo en cuestión de horas o días.
+
+71
+00:06:27,605 --> 00:06:30,209
+Pero la velocidad no duró mucho.
+
+72
+00:06:30,459 --> 00:06:34,007
+Un año o dos después, las cosas comenzaron a disminuir.
+
+73
+00:06:34,257 --> 00:06:38,233
+Cuanto más trabajabas, más cosas parecían ir despacio.
+
+74
+00:06:38,483 --> 00:06:42,610
+¿Es porque? Debido al desorden que creció en el código,
+
+75
+00:06:42,860 --> 00:06:48,426
+y caminar a través de este desastre comenzó a desacelerarte, ¡y a desacelerarte mucho! 
+
+76
+00:06:48,676 --> 00:06:51,586
+Esta alta productividad que te gustó al principio
+
+77
+00:06:51,636 --> 00:06:56,995
+Se desplomó. Las cosas que solían tomar horas ahora toman días,
+
+78
+00:06:56,945 --> 00:07:00,642
+cosas que solían tomar días ahora toman semanas o meses,
+
+79
+00:07:00,692 --> 00:07:02,928
+o puede que ni siquiera sea posible hacerlo.
+
+80
+00:07:04,494 --> 00:07:06,654
+Los gerentes estaban preocupados,
+
+81
+00:07:06,904 --> 00:07:12,053
+después de todo, habían hecho planes basados ​​en su alta productividad inicial
+
+82
+00:07:12,303 --> 00:07:15,792
+y ahora enfrentan un problema sorprendente con sus planes de negocios.
+
+83
+00:07:16,042 --> 00:07:21,411
+La primera estrategia de los gerentes para eliminar este problema
+
+84
+00:07:21,661 --> 00:07:24,290
+ponía más presión sobre los desarrolladores,
+
+85
+00:07:24,540 --> 00:07:29,663
+que solo sirvió para que los desarrolladores
+hicieran un desastre aún mayor
+
+86
+00:07:29,813 --> 00:07:33,276
+y a pesar de sus heroicos esfuerzos, se volvieron aún más lentos.
+
+87
+00:07:34,026 --> 00:07:38,013
+Luego, los gerentes intentaron agregar más personas al equipo,
+
+88
+00:07:38,263 --> 00:07:41,148
+Esto obviamente condujo a la caída de la productividad.
+
+89
+00:07:41,398 --> 00:07:44,050
+ya que los nuevos absorbieron la vida de los veteranos.
+
+90
+00:07:44,300 --> 00:07:50,954
+Finalmente, comenzaron a trabajar más rápido, haciendo
+sus propios problemas, ralentizando a todos aún más.
+
+91
+00:07:51,572 --> 00:07:54,453
+Agregar más personas no es barato
+
+92
+00:07:54,703 --> 00:08:00,165
+ahora los gerentes enfrentan costos cada vez
+más altos y una productividad más baja.
+
+93
+00:08:00,415 --> 00:08:06,458
+Desesperados, acudieron a los programadores y les
+preguntaron qué creían que debería hacerse.
+
+94
+00:08:06,708 --> 00:08:09,069
+Por supuesto, los desarrolladores sabían exactamente qué hacer,
+
+95
+00:08:09,219 --> 00:08:12,452
+habían estado levantando la bola de rediseño durante meses
+
+96
+00:08:12,502 --> 00:08:19,346
+uno de ellos dijo: "Lo mejor que podemos hacer con este sistema
+es ingresar a la sala de máquinas con un imán gigante"
+
+97
+00:08:19,396 --> 00:08:22,479
+"Lo que este sistema necesita es un rediseño completo"
+
+98
+00:08:24,129 --> 00:08:27,866
+Los gerentes estaban aterrorizados de esta opción, sabían
+
+99
+00:08:28,116 --> 00:08:31,001
+exactamente cuánto costaría y no tenía
+
+100
+00:08:31,251 --> 00:08:34,774
+sin confianza en que conduciría a una mejor situación.
+
+101
+00:08:35,024 --> 00:08:36,876
+¿Pero qué más podrían hacer?
+
+102
+00:08:37,126 --> 00:08:46,512
+De mala gana, cancelaron cualquier otro plan y
+autorizaron un rediseño de todo el proyecto.
+
+103
+00:08:46,762 --> 00:08:51,722
+Para los desarrolladores, sin embargo,
+fue como el amanecer de un nuevo día.
+
+104
+00:08:51,772 --> 00:08:54,848
+"¡Comencemos un proyecto desde cero de nuevo!"
+
+105
+00:08:55,098 --> 00:08:57,583
+"¡Nos libraremos del desastre y volveremos a ser productivos!"
+
+106
+00:08:57,633 --> 00:08:59,887
+"¡Que día feliz!"
+
+107
+00:09:00,137 --> 00:09:05,785
+Así que elegimos los 10 mejores y más brillantes, los que
+lo hacen posible, los que nos sacarían del desastre
+
+108
+00:09:06,035 --> 00:09:10,986
+a la tierra prometida de un nuevo proyecto.
+
+109
+00:09:11,236 --> 00:09:13,433
+El resto de nosotros odiamos a estos tipos, porque
+
+110
+00:09:13,483 --> 00:09:18,030
+los clientes no esperarían a que los gurús
+terminen lo que estaban haciendo,
+
+111
+00:09:18,080 --> 00:09:20,924
+necesitaban correcciones de errores y nuevas funciones,
+
+112
+00:09:21,174 --> 00:09:25,104
+así que tendríamos que arrastrarnos
+por el barro, mientras los gurús
+
+113
+00:09:25,354 --> 00:09:27,356
+estaban allí haciendo algo limpio desde cero.
+
+114
+00:09:28,817 --> 00:09:32,002
+Mientras tanto, los gurús necesitaban requisitos del sistema
+
+115
+00:09:32,252 --> 00:09:34,254
+y donde crees que estaban?
+
+116
+00:09:34,504 --> 00:09:36,506
+¿Crees que hubo documentos de requisitos?
+
+117
+00:09:36,756 --> 00:09:38,921
+Incluso si los hubiera, ¿crees que serían precisos?
+
+118
+00:09:39,171 --> 00:09:46,977
+No, hubo muchas correcciones y modificaciones de último minuto en el código,
+por lo que el documento de requisitos era de cierta importancia.
+
+119
+00:09:47,227 --> 00:09:51,492
+Los requisitos para el nuevo sistema estaban realmente en el sistema anterior,
+
+120
+00:09:51,542 --> 00:09:54,128
+en el antiguo código del sistema
+
+121
+00:09:54,378 --> 00:10:00,932
+y ahora, los gurús tuvieron que meterse en el
+código del viejo sistema tratando de entender
+
+122
+00:10:01,182 --> 00:10:03,790
+cuáles eran los requisitos del sistema nuevamente,
+
+123
+00:10:04,040 --> 00:10:09,093
+y así comenzó una carrera como Aquiles y la tortuga en la paradoja de Zenón.
+
+124
+00:10:09,343 --> 00:10:14,260
+Cada vez que los gurús llegaron donde el viejo sistema se había detenido
+
+125
+00:10:14,510 --> 00:10:18,742
+ya se había cambiado con nuevos arreglos y modificaciones.
+
+126
+00:10:19,592 --> 00:10:24,059
+Vi esta carrera continuar por 10 años.
+
+127
+00:10:26,356 --> 00:10:31,443
+Durante esos años, los miembros del equipo fueron
+reemplazados gradualmente uno por uno.
+
+128
+00:10:31,693 --> 00:10:35,808
+El sistema se volvió más desordenado y distorsionado ...
+
+129
+00:10:36,058 --> 00:10:38,595
+Finalmente, aunque nunca había sido implantado,
+
+130
+00:10:38,845 --> 00:10:42,031
+Los desarrolladores del equipo comenzaron a pedir un rediseño.
+
+131
+00:10:43,098 --> 00:10:46,861
+Así es como el mal código puede retrasar un proyecto,
+
+132
+00:10:47,111 --> 00:10:50,555
+un departamento, división o incluso una empresa.
+
+133
+00:10:50,605 --> 00:10:54,965
+¿Pero como? ¿Cómo puede este código reducir tanto la productividad?
+
+134
+00:10:55,215 --> 00:10:56,822
+¿Cuáles son los mecanismos?
+
+135
+00:11:04,507 --> 00:11:08,002
+¿Qué tiene de malo el código? ¿Por qué va mal con el tiempo?
+
+136
+00:11:08,252 --> 00:11:11,044
+comienza limpio y hermoso
+
+137
+00:11:11,294 --> 00:11:16,884
+pero luego, con el tiempo, comienza a apestar como un pedazo de carne podrida.
+
+138
+00:11:17,134 --> 00:11:21,284
+Usted sabe qué tan malo es el código al observar
+las características de los desarrolladores
+
+139
+00:11:21,534 --> 00:11:24,408
+al abrir el código en la pantalla.
+
+140
+00:11:24,658 --> 00:11:28,158
+Antes de ver por qué sucede esto, veamos los síntomas.
+
+141
+00:11:28,408 --> 00:11:31,036
+¿Qué hay en el código podrido que nos frena?
+
+142
+00:11:31,286 --> 00:11:35,785
+¿Cómo afecta esto a nuestra productividad? ¿Cómo afecta esto a nuestras estimaciones?
+
+143
+00:11:41,032 --> 00:11:45,642
+Un sistema rígido es aquel que en un solo
+cambio o mejora requiere que nosotros
+
+144
+00:11:45,892 --> 00:11:49,392
+hacer docenas de cambios en todo el sistema.
+
+145
+00:11:49,642 --> 00:11:52,842
+Esto se debe a que el código está tan envuelto,
+
+146
+00:11:53,092 --> 00:11:57,669
+que cuando te mueves en un lugar te ves obligado a hacer ajustes en muchos otros
+
+147
+00:11:57,919 --> 00:12:01,733
+y luego tienes que hacer aún más ajustes en otra parte
+
+148
+00:12:01,769 --> 00:12:06,447
+Los programadores actúan como
+perros, persiguiendo su cola
+
+149
+00:12:06,497 --> 00:12:09,640
+a lo largo del código, haciendo cambios aquí, allá, allá,
+
+150
+00:12:09,590 --> 00:12:15,166
+posiblemente jugando cientos de módulos diferentes
+solo para que el sistema vuelva a funcionar.
+
+151
+00:12:16,999 --> 00:12:19,845
+Los sistemas rígidos son muy impredecibles,
+
+152
+00:12:20,095 --> 00:12:25,105
+estimarlos es difícil, porque nunca se
+sabe cuántos módulos se cambiarán.
+
+153
+00:12:30,142 --> 00:12:35,507
+Los sistemas frágiles son aquellos que se rompen
+en muchos lugares cuando solo tocas uno.
+
+154
+00:12:35,757 --> 00:12:40,766
+Un cambio simple en el sistema puede causar disfunciones en todo el sistema
+
+155
+00:12:41,330 --> 00:12:46,746
+Es muy difícil estimar sistemas como estos, porque son muy impredecibles.
+
+156
+00:12:46,996 --> 00:12:51,736
+Cuando un sistema es frágil, los usuarios y gerentes se dan cuenta.
+
+157
+00:12:51,986 --> 00:12:56,055
+Ven errores extraños en lugares que solían funcionar,
+
+158
+00:12:56,305 --> 00:12:59,805
+y estos problemas los ponen muy nerviosos.
+
+159
+00:13:00,055 --> 00:13:03,055
+Cuando los desarrolladores hacen un cambio aquí,
+
+160
+00:13:03,105 --> 00:13:05,949
+pero algo se rompe
+
+161
+00:13:06,199 --> 00:13:08,130
+nada más se puede confiar.
+
+162
+00:13:08,380 --> 00:13:14,702
+Los desarrolladores parecen ser incompetentes y el sistema parece poco confiable.
+
+163
+00:13:19,625 --> 00:13:26,764
+Un sistema inseparable es un sistema cuyos módulos no
+se pueden separar y reutilizar para otras cosas.
+
+164
+00:13:27,014 --> 00:13:31,932
+Generalmente intentamos componer sistemas
+con módulos que puedan reutilizarse.
+
+165
+00:13:32,182 --> 00:13:34,752
+Desafortunadamente, este esfuerzo a menudo falla.
+
+166
+00:13:35,002 --> 00:13:38,198
+Los diseñadores del sistema no pueden imponer los límites de los módulos.
+
+167
+00:13:38,348 --> 00:13:41,848
+Los desarrolladores de software a toda prisa usan atajos.
+
+168
+00:13:42,098 --> 00:13:47,600
+Estos atajos a menudo cruzan los bordes de los módulos haciéndolos
+inseparables y, por lo tanto, no reutilizables.
+
+169
+00:13:47,977 --> 00:13:50,548
+Los sistemas inseparables son impredecibles,
+
+170
+00:13:50,698 --> 00:13:54,814
+nunca se sabe si puede reutilizar alguno de los componentes del sistema
+
+171
+00:13:54,814 --> 00:13:58,029
+entonces no puede hacer estimaciones confiables.
+
+172
+00:14:01,907 --> 00:14:06,762
+La gente detrás de estas puertas está revisando el código.
+
+173
+00:14:07,012 --> 00:14:13,031
+Tómese un momento para estudiar este dibujo, explica
+qué opacidad significa mejor que mis palabras.
+
+174
+00:14:24,014 --> 00:14:28,040
+El código opaco es uno que no comunica
+la intención del autor.
+
+175
+00:14:28,090 --> 00:14:32,559
+Es difícil de leer, difícil de entender y difícil de cambiar.
+
+176
+00:14:37,434 --> 00:14:41,461
+¿Alguna vez ha sido obstaculizado significativamente por un mal código?
+
+177
+00:14:41,540 --> 00:14:44,273
+Eres un desarrollador de software! Por supuesto que ya lo era.
+
+178
+00:14:44,273 --> 00:14:47,164
+La pregunta es, ¿por qué escribes?
+
+179
+00:14:46,716 --> 00:14:49,695
+¿Fue por gerentes estúpidos?
+
+180
+00:14:49,945 --> 00:14:51,889
+¿O clientes impacientes?
+
+181
+00:14:52,139 --> 00:14:54,618
+¿Fueron plazos imposibles?
+
+182
+00:14:54,868 --> 00:14:57,567
+¿O tal vez los requisitos también han cambiado mucho?
+
+183
+00:14:58,251 --> 00:15:02,931
+La realidad es que todas estas son excusas, estas
+no son las cosas que hacen que el código sea malo
+
+184
+00:15:03,181 --> 00:15:05,705
+Lo que hace que el código sea malo son los programadores
+
+185
+00:15:05,955 --> 00:15:10,107
+Programadores, nosotros. Nosotros, los que
+hacemos el desastre, somos culpa nuestra.
+
+186
+00:15:10,357 --> 00:15:11,951
+No podemos culpar a nadie
+
+187
+00:15:11,951 --> 00:15:14,471
+nosotros los que escribimos mal código.
+
+188
+00:15:15,666 --> 00:15:21,037
+La razón que nos lleva a desordenar en primer lugar
+es porque sentimos la urgencia del cliente.
+
+189
+00:15:21,287 --> 00:15:23,318
+la presión de la fecha de entrega
+
+190
+00:15:23,346 --> 00:15:24,711
+entonces corremos
+
+191
+00:15:25,127 --> 00:15:30,075
+Nos decimos que después volveremos y lo corregiremos,
+pero sabemos que no lo haremos.
+
+192
+00:15:30,176 --> 00:15:32,036
+La ironía de esto es que
+
+193
+00:15:32,286 --> 00:15:34,172
+Es el desastre que nos frena
+
+194
+00:15:34,422 --> 00:15:36,727
+No podemos ir más rápido si hacemos un desastre
+
+195
+00:15:36,977 --> 00:15:38,514
+y ya lo sabes
+
+196
+00:15:38,764 --> 00:15:43,194
+Acabas de admitir que ya has sido obstaculizado
+significativamente por un mal código.
+
+197
+00:15:43,444 --> 00:15:46,665
+Si quieres ir rápido tienes que mantenerte limpio.
+
+198
+00:15:46,915 --> 00:15:50,415
+La única forma de ir más rápido es hacerlo bien.
+
+199
+00:15:53,840 --> 00:15:55,733
+Esto es difícil de aceptar.
+
+200
+00:15:55,983 --> 00:15:59,378
+Todos piensan que pueden ir más rápido cuando corren
+
+201
+00:15:59,628 --> 00:16:00,457
+Pero esto es una ilusión.
+
+202
+00:16:00,707 --> 00:16:03,883
+No puedes correr con el código e ir más rápido
+
+203
+00:16:03,996 --> 00:16:06,228
+Algunas personas piensan: "Bueno, eh ...
+
+204
+00:16:06,478 --> 00:16:09,836
+es más rápido a corto plazo, pero tiene un costo a largo plazo "
+
+205
+00:16:09,986 --> 00:16:11,717
+Pero incluso eso es una ilusión.
+
+206
+00:16:11,867 --> 00:16:15,827
+Si corres, será doloroso a corto y largo plazo
+
+207
+00:16:15,977 --> 00:16:18,613
+El código limpio no tiene costo a corto plazo
+
+208
+00:16:18,863 --> 00:16:22,552
+y no puedes correr más rápido con el código.
+
+209
+00:16:27,335 --> 00:16:31,097
+¿Alguna vez has visto a un chef de sushi preparar sushi?
+
+210
+00:16:31,347 --> 00:16:33,296
+Es una vista mágica
+
+211
+00:16:33,346 --> 00:16:36,623
+La próxima vez que vayas, presta mucha atención
+
+212
+00:16:36,873 --> 00:16:39,642
+verás a este tipo moverse rápidamente
+
+213
+00:16:39,892 --> 00:16:42,451
+las manos apenas ves las manos
+
+214
+00:16:42,701 --> 00:16:45,588
+Él sabe exactamente dónde están sus
+cuchillos, dónde está su comida
+
+215
+00:16:45,838 --> 00:16:49,951
+cada movimiento ya ha sido bien practicado,
+moviéndose a la velocidad de la luz
+
+216
+00:16:50,201 --> 00:16:52,236
+Es mágico. Y enseguida,
+
+217
+00:16:52,486 --> 00:16:55,767
+llega el momento en que toma su
+plato impecablemente preparado
+
+218
+00:16:56,017 --> 00:16:57,846
+y ponlo delante de ti.
+
+219
+00:16:58,096 --> 00:17:01,817
+Y si observa su entorno de trabajo, notará
+que no tiene una mota de suciedad
+
+220
+00:17:02,067 --> 00:17:04,266
+Limpiaba cada vez que trabajaba
+
+221
+00:17:04,516 --> 00:17:06,565
+porque esta es la única forma
+
+222
+00:17:06,815 --> 00:17:08,179
+que puede ir más rápido
+
+223
+00:17:09,826 --> 00:17:14,193
+Así que ahora sabemos cómo nos impide el mal código
+
+224
+00:17:14,443 --> 00:17:18,303
+y sabemos que la única forma de
+ir rápido es hacerlo bien.
+
+225
+00:17:18,553 --> 00:17:20,857
+Entonces, ¿qué es el código limpio?
+
+226
+00:17:30,354 --> 00:17:32,258
+¿Qué es el código limpio?
+
+227
+00:17:32,508 --> 00:17:35,045
+Hice esta pregunta a varios expertos.
+
+228
+00:17:35,295 --> 00:17:37,622
+escuchemos lo que dijeron
+
+229
+00:17:38,619 --> 00:17:42,777
+Bjarne Stroustrup, inventor de C ++ dijo ...
+
+230
+00:17:43,027 --> 00:17:46,510
+"Me gusta mi código elegante y eficiente"
+
+231
+00:17:46,660 --> 00:17:49,487
+"El código limpio hace una cosa"
+
+232
+00:17:50,913 --> 00:17:55,200
+El código elegante es lo que hace mucho con solo unas pocas palabras
+
+233
+00:17:55,450 --> 00:18:00,076
+El código eficiente es lo que funciona rápidamente
+sin desperdiciar demasiados ciclos
+
+234
+00:18:00,326 --> 00:18:03,628
+Pero, ¿qué significa "el código hace una sola cosa"?
+
+235
+00:18:03,878 --> 00:18:08,319
+Esto es algo de lo que hablaremos en un próximo episodio
+
+236
+00:18:09,491 --> 00:18:13,670
+Grady Booch, autor del clásico de los noventa.
+
+237
+00:18:13,920 --> 00:18:17,351
+"Diseño orientado a objetos con aplicaciones", dijo ...
+
+238
+00:18:17,861 --> 00:18:21,276
+"El código limpio debe ser simple y directo"
+
+239
+00:18:21,526 --> 00:18:24,921
+"El código limpio debe leerse como prosa bien escrita"
+
+240
+00:18:25,171 --> 00:18:28,383
+Todos podemos estar de acuerdo en la parte directa
+
+241
+00:18:28,633 --> 00:18:33,489
+Pero ... ¿puede el código leerse realmente como una prosa bien escrita?
+
+242
+00:18:33,739 --> 00:18:36,624
+La respuesta corta a eso es ... ¡Sí!
+
+243
+00:18:36,874 --> 00:18:41,152
+La respuesta un poco más larga es ... ¡Bueno, casi!
+
+244
+00:18:41,402 --> 00:18:44,983
+Hablaremos de eso en otro episodio pronto.
+
+245
+00:18:46,421 --> 00:18:52,181
+Michael Feathers, autor de "Trabajar
+eficazmente con código heredado"
+
+246
+00:18:52,431 --> 00:18:53,910
+dijo ...
+
+247
+00:18:53,784 --> 00:18:59,379
+El código limpio siempre parece estar escrito
+por alguien a quien le importa
+
+248
+00:18:59,629 --> 00:19:01,571
+Ese es un buen pensamiento
+
+249
+00:19:01,721 --> 00:19:05,324
+Todos hemos visto un código que
+parece que a nadie le importa
+
+250
+00:19:05,574 --> 00:19:10,595
+Este curso es para aprender cómo cuidar tu código
+
+251
+00:19:11,243 --> 00:19:17,375
+Ward Cunningham, el inventor de wikis y ... mucho más
+
+252
+00:19:17,625 --> 00:19:19,186
+dijo ...
+
+253
+00:19:19,436 --> 00:19:27,545
+Sabes que estás leyendo un código limpio cuando cada
+rutina que lees es más o menos lo que esperabas
+
+254
+00:19:28,392 --> 00:19:31,632
+Es muy típico que Ward lo use ...
+
+255
+00:19:31,882 --> 00:19:36,183
+palabras tan inocuas para decir algo tan profundo.
+
+256
+00:19:36,294 --> 00:19:41,009
+¿Cuándo fue la última vez que leyó
+el código que era lo que esperaba?
+
+257
+00:19:41,159 --> 00:19:48,025
+¿Y cómo podemos aprender a escribir código
+tal como esperan nuestros lectores?
+
+258
+00:19:48,275 --> 00:19:53,366
+Este es el tema de este curso, aprender
+a prestar atención a los detalles.
+
+259
+00:19:53,616 --> 00:19:59,566
+este nivel de atención y cómo ser simple y directo
+
+260
+00:19:59,816 --> 00:20:02,956
+De eso se trata el código limpio
+
+261
+00:20:09,620 --> 00:20:13,381
+Robert Baden Powell, el padre de los Boy Scouts,
+
+262
+00:20:13,631 --> 00:20:15,773
+antes de morir dijo ...
+
+263
+00:20:16,023 --> 00:20:18,304
+"Haz el mundo mejor de lo que lo encontraste"
+
+264
+00:20:18,554 --> 00:20:21,021
+¿Y si hiciéramos eso con nuestro código?
+
+265
+00:20:21,271 --> 00:20:23,923
+Y si adoptamos una regla que dice ...
+
+266
+00:20:24,173 --> 00:20:26,813
+"Compromete tus módulos mejor de lo que los encontraste"
+
+267
+00:20:27,063 --> 00:20:30,773
+Siempre haz un gesto gentil
+
+268
+00:20:31,023 --> 00:20:33,617
+limpiar los módulos antes de comprometerse
+
+269
+00:20:33,867 --> 00:20:39,109
+Si todos hicieran eso, el código
+sería mejor cada día
+
+270
+00:20:39,359 --> 00:20:43,683
+y de esto se trata este curso
+
+271
+00:20:48,513 --> 00:20:54,574
+Bueno, eso es suficiente para decir tonterías sobre
+el código limpio. Ahora entremos en un código
+
+272
+00:20:54,824 --> 00:20:56,765
+Vayamos al episodio II.
+
+273
+00:20:56,824 --> 00:21:05,301
+¡Déjalo ir perro !, aquí vamos ...
